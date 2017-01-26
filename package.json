@@ -1,0 +1,19 @@
+{
+  "name": "anime-cartoon",
+  "version": "1.0.0",
+  "description": "anime-cartoon server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0dezer0/anime-cartoon.git"
+  },
+  "author": "Manish kumar <mail2manish15@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0dezer0/anime-cartoon/issues"
+  },
+  "homepage": "https://github.com/c0dezer0/anime-cartoon#readme"
+}
