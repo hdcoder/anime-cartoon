@@ -1,0 +1,22 @@
+{
+  "generator-react-redux-express": {
+    "appName": "anime-cartoon",
+    "generatedWithVersion": 0
+  },
+  "generator-express": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "EJS",
+      "cssPreprocessor": "less",
+      "database": "MongoDB",
+      "buildTool": "Gulp"
+    }
+  },
+  "generator-rest": {
+    "srcDir": "src",
+    "apiDir": "api",
+    "authMethods": [
+      "password"
+    ]
+  }
+}
