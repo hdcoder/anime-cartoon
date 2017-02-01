@@ -37,7 +37,7 @@ const config = {
   },
   test: {
     mongo: {
-      uri: 'mongodb://127.0.0.1:27017/anime-cartoon-test',
+      uri: 'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon-test',
       options: {
         debug: false
       }
@@ -45,7 +45,7 @@ const config = {
   },
   development: {
     mongo: {
-      uri: 'mongodb://127.0.0.1:27017/anime-cartoon-dev',
+      uri: 'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon-dev',
       options: {
         debug: true
       }
