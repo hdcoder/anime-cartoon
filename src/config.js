@@ -45,7 +45,7 @@ const config = {
   },
   development: {
     mongo: {
-      uri: 'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon-dev',
+      uri: 'mongodb://admin:admin@ds143559.mlab.com:43559/anime-cartoon-dev',
       options: {
         debug: true
       }
