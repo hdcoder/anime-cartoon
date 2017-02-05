@@ -32,4 +32,17 @@ router.use('/users', user)
 router.use('/auth', auth)
 router.use('/shows', shows)
 
+// documentation generator
+router.get('/doc', (req, res)=>{
+	
+	var exec = require('child_process').exec;
+	var cmd = 'npm run docs';
+
+	exec(cmd, function(error, stdout, stderr) {
+		var path = require('path');
+		
+		res.sendFile(path.resolve(__dirname,'../../docs/index.html'));
+	});
+})
+
 export default router
