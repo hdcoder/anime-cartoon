@@ -52,10 +52,10 @@ const config = {
     }
   },
   production: {
-    ip: process.env.IP || undefined,
+    ip: process.env.IP || 'localhost',
     port: process.env.PORT || 3000,
     mongo: {
-      uri: process.env.MONGODB_URI || 'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon'
+      uri:'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon'
     }
   }
 }
