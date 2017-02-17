@@ -52,7 +52,7 @@ const config = {
     }
   },
   production: {
-    ip: 'localhost',
+    ip: process.env.IP || '0.0.0.0',
     port: process.env.PORT || 3000,
     mongo: {
       uri:'mongodb://admin:admin@ds135029.mlab.com:35029/anime-cartoon'
