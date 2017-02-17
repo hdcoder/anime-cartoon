@@ -4,7 +4,7 @@ import auth from './auth'
 import shows from './shows'
 
 const router = new Router()
-
+router.get('/ping', (req,res)=>{ res.json({status: "working"});});
 /**
  * @apiDefine master Master access only
  * You must pass `access_token` parameter or a Bearer Token authorization header
